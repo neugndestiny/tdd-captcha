@@ -47,9 +47,9 @@ public class Captcha {
 
     @Override
     public String toString() {
-        if (this.getLeftOperand() == 1) {
-            return "1 + One";
-        }
-        return "2 + One";
+//        if (this.getLeftOperand() == 1) {
+//            return "1 + One";
+//        }
+        return this.getLeftOperand() + " + One";
     }
 }

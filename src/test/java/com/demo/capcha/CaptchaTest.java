@@ -18,4 +18,11 @@ public class CaptchaTest {
         Captcha captcha = new Captcha(1, 2, 1, 1);
         Assert.assertEquals("2 + One", captcha.toString());
     }
+
+    @Test
+    public void firstPatternLeftOperandShouldBe3() {
+        Captcha captcha = new Captcha(1, 3,1,1);
+        Assert.assertEquals("3 + One", captcha.toString());
+    }
+
 }
